@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Auth App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Simple Auth Demo</div>
+        <div class="card-subtitle">Register → Login → Use token</div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <h2><span>1</span> Register</h2>
+          <div class="field">
+            <label for="regUsername">Username</label>
+            <input id="regUsername" class="input" placeholder="e.g. kirmani" />
+          </div>
+          <div class="field">
+            <label for="regPassword">Password</label>
+            <input id="regPassword" class="input" type="password" placeholder="Your password" />
+          </div>
+          <div class="actions">
+            <button class="btn" onclick="register()">Create account</button>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2><span>2</span> Login & token</h2>
+          <div class="field">
+            <label for="loginUsername">Username</label>
+            <input id="loginUsername" class="input" placeholder="Same as above" />
+          </div>
+          <div class="field">
+            <label for="loginPassword">Password</label>
+            <input id="loginPassword" class="input" type="password" placeholder="Same password" />
+          </div>
+          <div class="actions">
+            <button class="btn" onclick="login()">Login</button>
+          </div>
+          <div class="token-box empty" id="tokenDisplay">Token will appear here after login.</div>
+        </section>
+      </div>
+
+      <section class="section" style="margin-top: 18px;">
+        <h2><span>3</span> Call /me</h2>
+        <div class="actions">
+          <button class="btn secondary" onclick="getProfile()">Call /me with token</button>
+        </div>
+        <div class="profile-box empty" id="profileDisplay">Profile response will appear here.</div>
+      </section>
+
+      <div class="footer">
+        Logged in as: <span id="footerUser">anonymous</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
