@@ -1,6 +1,6 @@
 <!-- Hero Banner -->
 <p align="center">
-  <img src="https://media.giphy.com/media/3o85xIO33l7RlmLR4I/giphy.gif" alt="Teaching Assistant Work Hero" width="700"/>
+  <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="Teaching Assistant Work Hero" width="700"/>
 </p>
 
 <h1 align="center">📚 Teaching Assistant Work</h1>
