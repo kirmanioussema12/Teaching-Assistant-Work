@@ -32,8 +32,8 @@ It also contains an **enhanced lecture slide (`Lecture4_enhanced.md`)** that wal
 ---
 
 ## 🧾 Content Overview
----
 ### 📁 Files & Structure  
+```text
 Teaching‑Assistant‑Work/
 ├── Frontend/ ← (Future UI integration space)
 ├── SQL/ ← PostgreSQL / relational examples
@@ -42,6 +42,7 @@ Teaching‑Assistant‑Work/
 ├── server.js ← Simple Express backend
 ├── package.json ← Dependencies & scripts
 └── README.md
+```
 ---
 
 ### 📊 Language Breakdown
@@ -55,7 +56,6 @@ Teaching‑Assistant‑Work/
 
 ---
 
-## 🛠️ Features Explained
 
 ### 🧩 Express Backend (👉 `server.js`)
 This demo server starts a basic backend capable of being expanded with routes, authentication, and database logic.
